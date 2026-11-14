@@ -1,0 +1,40 @@
+name: Validate collections
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    name: Validate collection files
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          path: collections
+          persist-credentials: false
+      - name: Check out the published Ordarr parser
+        uses: actions/checkout@v7
+        with:
+          repository: trentnbauer/Ordarr
+          # v0.1.0: use an immutable parser revision, not mutable PR code.
+          ref: 95d70cc5f0272bc347992acc3d34a5f594ff61e4
+          path: validator
+          persist-credentials: false
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: validator/go.mod
+          cache-dependency-path: validator/go.sum
+      - name: Install validator alongside the application parser
+        run: |
+          mkdir -p validator/cmd/collections-check
+          cp collections/.github/scripts/validate.go validator/cmd/collections-check/main.go
+      - name: Check validator rejection cases
+        working-directory: validator
+        run: go run ./cmd/collections-check --self-test
+      - name: Validate every collection and expanded entry
+        working-directory: validator
+        run: go run ./cmd/collections-check "$GITHUB_WORKSPACE/collections"
