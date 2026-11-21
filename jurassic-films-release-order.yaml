@@ -1,0 +1,12 @@
+version: 1
+id: jurassic-films-release-order
+title: "Jurassic Park and Jurassic World - Release Order"
+description: "The seven theatrical Jurassic Park and Jurassic World films from 1993 through Rebirth in release order."
+entries:
+  - {id: "jurassic-park", kind: "movie", title: "Jurassic Park", provider: "imdb", external_id: "tt0107290"}
+  - {id: "lost-world", kind: "movie", title: "The Lost World: Jurassic Park", provider: "imdb", external_id: "tt0119567"}
+  - {id: "jurassic-park-iii", kind: "movie", title: "Jurassic Park III", provider: "imdb", external_id: "tt0163025"}
+  - {id: "jurassic-world", kind: "movie", title: "Jurassic World", provider: "imdb", external_id: "tt0369610"}
+  - {id: "fallen-kingdom", kind: "movie", title: "Jurassic World: Fallen Kingdom", provider: "imdb", external_id: "tt4881806"}
+  - {id: "dominion", kind: "movie", title: "Jurassic World Dominion", provider: "imdb", external_id: "tt8041270"}
+  - {id: "rebirth", kind: "movie", title: "Jurassic World Rebirth", provider: "imdb", external_id: "tt31036941"}

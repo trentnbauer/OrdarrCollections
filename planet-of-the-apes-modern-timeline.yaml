@@ -1,0 +1,9 @@
+version: 1
+id: planet-of-the-apes-modern-timeline
+title: "Planet of the Apes - Modern Film Timeline"
+description: "The modern continuity, from the Caesar trilogy through Kingdom of the Planet of the Apes, in story order."
+entries:
+  - {id: "rise", kind: "movie", title: "Rise of the Planet of the Apes", provider: "imdb", external_id: "tt1318514"}
+  - {id: "dawn", kind: "movie", title: "Dawn of the Planet of the Apes", provider: "imdb", external_id: "tt2103281"}
+  - {id: "war", kind: "movie", title: "War for the Planet of the Apes", provider: "imdb", external_id: "tt3450958"}
+  - {id: "kingdom", kind: "movie", title: "Kingdom of the Planet of the Apes", provider: "imdb", external_id: "tt11389872"}

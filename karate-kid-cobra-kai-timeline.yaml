@@ -1,0 +1,16 @@
+version: 1
+id: karate-kid-cobra-kai-timeline
+title: "The Karate Kid and Cobra Kai - Story Order"
+description: "The four original Miyagi films, six seasons of Cobra Kai, and Karate Kid: Legends in main-story order."
+entries:
+  - {id: "karate-kid", kind: "movie", title: "The Karate Kid", provider: "imdb", external_id: "tt0087538"}
+  - {id: "karate-kid-2", kind: "movie", title: "The Karate Kid Part II", provider: "imdb", external_id: "tt0091326"}
+  - {id: "karate-kid-3", kind: "movie", title: "The Karate Kid Part III", provider: "imdb", external_id: "tt0097647"}
+  - {id: "next-karate-kid", kind: "movie", title: "The Next Karate Kid", provider: "imdb", external_id: "tt0110657"}
+  - {id: "cobra-kai-s01", kind: "season", title: "Cobra Kai", provider: "tvdb", external_id: "332858", season: 1, end: 10}
+  - {id: "cobra-kai-s02", kind: "season", title: "Cobra Kai", provider: "tvdb", external_id: "332858", season: 2, end: 10}
+  - {id: "cobra-kai-s03", kind: "season", title: "Cobra Kai", provider: "tvdb", external_id: "332858", season: 3, end: 10}
+  - {id: "cobra-kai-s04", kind: "season", title: "Cobra Kai", provider: "tvdb", external_id: "332858", season: 4, end: 10}
+  - {id: "cobra-kai-s05", kind: "season", title: "Cobra Kai", provider: "tvdb", external_id: "332858", season: 5, end: 10}
+  - {id: "cobra-kai-s06", kind: "season", title: "Cobra Kai", provider: "tvdb", external_id: "332858", season: 6, end: 15}
+  - {id: "karate-kid-legends", kind: "movie", title: "Karate Kid: Legends", provider: "imdb", external_id: "tt1674782"}

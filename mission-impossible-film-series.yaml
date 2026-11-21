@@ -1,0 +1,13 @@
+version: 1
+id: mission-impossible-film-series
+title: "Mission: Impossible - Film Series"
+description: "The eight Mission: Impossible films from 1996 through The Final Reckoning in release order."
+entries:
+  - {id: "mission-impossible", kind: "movie", title: "Mission: Impossible", provider: "imdb", external_id: "tt0117060"}
+  - {id: "mission-impossible-2", kind: "movie", title: "Mission: Impossible II", provider: "imdb", external_id: "tt0120755"}
+  - {id: "mission-impossible-3", kind: "movie", title: "Mission: Impossible III", provider: "imdb", external_id: "tt0317919"}
+  - {id: "ghost-protocol", kind: "movie", title: "Mission: Impossible - Ghost Protocol", provider: "imdb", external_id: "tt1229238"}
+  - {id: "rogue-nation", kind: "movie", title: "Mission: Impossible - Rogue Nation", provider: "imdb", external_id: "tt2381249"}
+  - {id: "fallout", kind: "movie", title: "Mission: Impossible - Fallout", provider: "imdb", external_id: "tt4912910"}
+  - {id: "dead-reckoning", kind: "movie", title: "Mission: Impossible - Dead Reckoning Part One", provider: "imdb", external_id: "tt9603212"}
+  - {id: "final-reckoning", kind: "movie", title: "Mission: Impossible - The Final Reckoning", provider: "imdb", external_id: "tt9603208"}
