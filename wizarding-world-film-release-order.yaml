@@ -1,0 +1,16 @@
+version: 1
+id: wizarding-world-film-release-order
+title: "Wizarding World - Films in Release Order"
+description: "The eight Harry Potter films and the three Fantastic Beasts films in theatrical release order."
+entries:
+  - {id: "philosophers-stone", kind: "movie", title: "Harry Potter and the Philosopher's Stone", provider: "imdb", external_id: "tt0241527"}
+  - {id: "chamber-of-secrets", kind: "movie", title: "Harry Potter and the Chamber of Secrets", provider: "imdb", external_id: "tt0295297"}
+  - {id: "prisoner-of-azkaban", kind: "movie", title: "Harry Potter and the Prisoner of Azkaban", provider: "imdb", external_id: "tt0304141"}
+  - {id: "goblet-of-fire", kind: "movie", title: "Harry Potter and the Goblet of Fire", provider: "imdb", external_id: "tt0330373"}
+  - {id: "order-of-the-phoenix", kind: "movie", title: "Harry Potter and the Order of the Phoenix", provider: "imdb", external_id: "tt0373889"}
+  - {id: "half-blood-prince", kind: "movie", title: "Harry Potter and the Half-Blood Prince", provider: "imdb", external_id: "tt0417741"}
+  - {id: "deathly-hallows-part-1", kind: "movie", title: "Harry Potter and the Deathly Hallows: Part 1", provider: "imdb", external_id: "tt0926084"}
+  - {id: "deathly-hallows-part-2", kind: "movie", title: "Harry Potter and the Deathly Hallows: Part 2", provider: "imdb", external_id: "tt1201607"}
+  - {id: "fantastic-beasts", kind: "movie", title: "Fantastic Beasts and Where to Find Them", provider: "imdb", external_id: "tt3183660"}
+  - {id: "crimes-of-grindelwald", kind: "movie", title: "Fantastic Beasts: The Crimes of Grindelwald", provider: "imdb", external_id: "tt4123430"}
+  - {id: "secrets-of-dumbledore", kind: "movie", title: "Fantastic Beasts: The Secrets of Dumbledore", provider: "imdb", external_id: "tt4123432"}

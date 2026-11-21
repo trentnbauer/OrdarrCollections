@@ -1,0 +1,10 @@
+version: 1
+id: hunger-games-films-2012-2023
+title: "The Hunger Games - The Katniss Saga and Ballad"
+description: "The four Katniss films followed by The Ballad of Songbirds & Snakes, in theatrical release order."
+entries:
+  - {id: "hunger-games", kind: "movie", title: "The Hunger Games", provider: "imdb", external_id: "tt1392170"}
+  - {id: "catching-fire", kind: "movie", title: "The Hunger Games: Catching Fire", provider: "imdb", external_id: "tt1951264"}
+  - {id: "mockingjay-part-1", kind: "movie", title: "The Hunger Games: Mockingjay - Part 1", provider: "imdb", external_id: "tt1951265"}
+  - {id: "mockingjay-part-2", kind: "movie", title: "The Hunger Games: Mockingjay - Part 2", provider: "imdb", external_id: "tt1951266"}
+  - {id: "ballad", kind: "movie", title: "The Hunger Games: The Ballad of Songbirds & Snakes", provider: "imdb", external_id: "tt10545296"}

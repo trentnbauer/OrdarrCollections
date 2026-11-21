@@ -1,0 +1,17 @@
+version: 1
+id: breaking-bad-universe-release-order
+title: "Breaking Bad Universe - Release Order"
+description: "Breaking Bad, Better Call Saul and El Camino ordered by season premiere or film release date."
+entries:
+  - {id: "breaking-bad-s01", kind: "season", title: "Breaking Bad", provider: "tvdb", external_id: "81189", season: 1, end: 7}
+  - {id: "breaking-bad-s02", kind: "season", title: "Breaking Bad", provider: "tvdb", external_id: "81189", season: 2, end: 13}
+  - {id: "breaking-bad-s03", kind: "season", title: "Breaking Bad", provider: "tvdb", external_id: "81189", season: 3, end: 13}
+  - {id: "breaking-bad-s04", kind: "season", title: "Breaking Bad", provider: "tvdb", external_id: "81189", season: 4, end: 13}
+  - {id: "breaking-bad-s05", kind: "season", title: "Breaking Bad", provider: "tvdb", external_id: "81189", season: 5, end: 16}
+  - {id: "better-call-saul-s01", kind: "season", title: "Better Call Saul", provider: "tvdb", external_id: "273181", season: 1, end: 10}
+  - {id: "better-call-saul-s02", kind: "season", title: "Better Call Saul", provider: "tvdb", external_id: "273181", season: 2, end: 10}
+  - {id: "better-call-saul-s03", kind: "season", title: "Better Call Saul", provider: "tvdb", external_id: "273181", season: 3, end: 10}
+  - {id: "better-call-saul-s04", kind: "season", title: "Better Call Saul", provider: "tvdb", external_id: "273181", season: 4, end: 10}
+  - {id: "el-camino", kind: "movie", title: "El Camino: A Breaking Bad Movie", provider: "imdb", external_id: "tt9243946"}
+  - {id: "better-call-saul-s05", kind: "season", title: "Better Call Saul", provider: "tvdb", external_id: "273181", season: 5, end: 10}
+  - {id: "better-call-saul-s06", kind: "season", title: "Better Call Saul", provider: "tvdb", external_id: "273181", season: 6, end: 13}
