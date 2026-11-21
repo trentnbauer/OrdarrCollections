@@ -1,0 +1,19 @@
+version: 1
+id: star-wars-skywalker-timeline
+title: "Star Wars - Skywalker Saga and Selected Spin-offs"
+description: "The nine Skywalker Saga films, Solo, Obi-Wan Kenobi, Andor and Rogue One in main-story order."
+entries:
+  - {id: "episode-i", kind: "movie", title: "Star Wars: Episode I - The Phantom Menace", provider: "imdb", external_id: "tt0120915"}
+  - {id: "episode-ii", kind: "movie", title: "Star Wars: Episode II - Attack of the Clones", provider: "imdb", external_id: "tt0121765"}
+  - {id: "episode-iii", kind: "movie", title: "Star Wars: Episode III - Revenge of the Sith", provider: "imdb", external_id: "tt0121766"}
+  - {id: "solo", kind: "movie", title: "Solo: A Star Wars Story", provider: "imdb", external_id: "tt3778644"}
+  - {id: "obi-wan-kenobi-s01", kind: "season", title: "Obi-Wan Kenobi", provider: "tvdb", external_id: "393199", season: 1, end: 6}
+  - {id: "andor-s01", kind: "season", title: "Andor", provider: "tvdb", external_id: "393189", season: 1, end: 12}
+  - {id: "andor-s02", kind: "season", title: "Andor", provider: "tvdb", external_id: "393189", season: 2, end: 12}
+  - {id: "rogue-one", kind: "movie", title: "Rogue One: A Star Wars Story", provider: "imdb", external_id: "tt3748528"}
+  - {id: "episode-iv", kind: "movie", title: "Star Wars: Episode IV - A New Hope", provider: "imdb", external_id: "tt0076759"}
+  - {id: "episode-v", kind: "movie", title: "Star Wars: Episode V - The Empire Strikes Back", provider: "imdb", external_id: "tt0080684"}
+  - {id: "episode-vi", kind: "movie", title: "Star Wars: Episode VI - Return of the Jedi", provider: "imdb", external_id: "tt0086190"}
+  - {id: "episode-vii", kind: "movie", title: "Star Wars: Episode VII - The Force Awakens", provider: "imdb", external_id: "tt2488496"}
+  - {id: "episode-viii", kind: "movie", title: "Star Wars: Episode VIII - The Last Jedi", provider: "imdb", external_id: "tt2527336"}
+  - {id: "episode-ix", kind: "movie", title: "Star Wars: Episode IX - The Rise of Skywalker", provider: "imdb", external_id: "tt2527338"}

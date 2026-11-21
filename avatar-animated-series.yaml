@@ -1,0 +1,12 @@
+version: 1
+id: avatar-animated-series
+title: "Avatar - The Last Airbender and The Legend of Korra"
+description: "The original animated series followed by The Legend of Korra, in aired season and episode order."
+entries:
+  - {id: "avatar-s01", kind: "season", title: "Avatar: The Last Airbender", provider: "tvdb", external_id: "74852", season: 1, end: 20}
+  - {id: "avatar-s02", kind: "season", title: "Avatar: The Last Airbender", provider: "tvdb", external_id: "74852", season: 2, end: 20}
+  - {id: "avatar-s03", kind: "season", title: "Avatar: The Last Airbender", provider: "tvdb", external_id: "74852", season: 3, end: 21}
+  - {id: "korra-s01", kind: "season", title: "The Legend of Korra", provider: "tvdb", external_id: "251085", season: 1, end: 12}
+  - {id: "korra-s02", kind: "season", title: "The Legend of Korra", provider: "tvdb", external_id: "251085", season: 2, end: 14}
+  - {id: "korra-s03", kind: "season", title: "The Legend of Korra", provider: "tvdb", external_id: "251085", season: 3, end: 13}
+  - {id: "korra-s04", kind: "season", title: "The Legend of Korra", provider: "tvdb", external_id: "251085", season: 4, end: 13}

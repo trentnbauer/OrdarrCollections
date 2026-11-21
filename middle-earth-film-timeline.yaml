@@ -1,0 +1,11 @@
+version: 1
+id: middle-earth-film-timeline
+title: "Middle-earth - The Hobbit and The Lord of the Rings"
+description: "Peter Jackson's six Middle-earth films in main-story order, beginning with The Hobbit."
+entries:
+  - {id: "unexpected-journey", kind: "movie", title: "The Hobbit: An Unexpected Journey", provider: "imdb", external_id: "tt0903624"}
+  - {id: "desolation-of-smaug", kind: "movie", title: "The Hobbit: The Desolation of Smaug", provider: "imdb", external_id: "tt1170358"}
+  - {id: "battle-of-five-armies", kind: "movie", title: "The Hobbit: The Battle of the Five Armies", provider: "imdb", external_id: "tt2310332"}
+  - {id: "fellowship-of-the-ring", kind: "movie", title: "The Lord of the Rings: The Fellowship of the Ring", provider: "imdb", external_id: "tt0120737"}
+  - {id: "two-towers", kind: "movie", title: "The Lord of the Rings: The Two Towers", provider: "imdb", external_id: "tt0167261"}
+  - {id: "return-of-the-king", kind: "movie", title: "The Lord of the Rings: The Return of the King", provider: "imdb", external_id: "tt0167260"}
